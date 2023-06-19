@@ -1,5 +1,4 @@
 function openOrSenior(arrOfNewMembers) {
-  let memberStatus = "Open";
   let result = [];
   
   if(!Array.isArray(arrOfNewMembers) || arrOfNewMembers.lenght === 0){
