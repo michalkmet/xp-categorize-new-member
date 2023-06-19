@@ -20,7 +20,7 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 - ✅ DONE
 
 ## Plans
-- ⚠ TODO return exception when given incorrect data
+- ✅ TODO return exception when given incorrect data
 - ⚠ TODO return ["Open"] when given [[20,20]]
 - ⚠ TODO return ["Open"] when given [[20,0]]
 - ⚠ TODO return ["Senior"] when given [[56,8]]

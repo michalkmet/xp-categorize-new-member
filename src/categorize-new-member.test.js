@@ -1,7 +1,7 @@
 const openOrSenior = require('./categorize-new-member');
 
 describe('openOrSenior', () => {
-  it('should return openOrSenior', () => {
-    expect(openOrSenior()).toBe('openOrSenior');
+  it('return exception when given incorrect data', () => {
+    expect(openOrSenior).toThrow(new Error('wrong input'));
   });
 });
