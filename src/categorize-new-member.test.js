@@ -13,4 +13,7 @@ describe('openOrSenior', () => {
   it('return return ["Senior"] when given [[56,8]]', () => {
     expect(openOrSenior([[56,8]])).toEqual(["Senior"]);
   });
+  it('return return ["Open","Senior"] when given [[58,0][56,8]]', () => {
+    expect(openOrSenior([[58,0],[56,8]])).toEqual(["Open","Senior"]);
+  });
 });
